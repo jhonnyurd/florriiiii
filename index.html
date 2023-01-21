@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"> <script type="text/javascript" async="" src="index_files/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-j14DS0ZqFtV2OyeUY0vsCXgJcX0FUhsEjwpZ5wCgkFobvYV+YzKWHa8aafMTHvm3"></script><script async="" src="index_files/api.js"></script><script async="" src="index_files/analytics.js"></script><script src="index_files/twk-main.js" charset="UTF-8" crossorigin="*"></script><script src="index_files/twk-vendor.js" charset="UTF-8" crossorigin="*"></script><script src="index_files/twk-chunk-vendors.js" charset="UTF-8" crossorigin="*"></script><script src="index_files/twk-chunk-common.js" charset="UTF-8" crossorigin="*"></script><script src="index_files/twk-runtime.js" charset="UTF-8" crossorigin="*"></script><script src="index_files/twk-app.js" charset="UTF-8" crossorigin="*"></script><script async="" src="index_files/default.js" charset="UTF-8" crossorigin="*"></script><script>
+    var BASE_URL = 'https://www.floreriaslima.net/';
+    var require = {
+        "baseUrl": "https://www.floreriaslima.net/pub/static/version1657317255/frontend/Smartwave/porto_child/es_ES"
+    };</script> <meta charset="utf-8">
+<meta name="title" content="Florerías en Lima - Florerías en Lima ᐅ Envió de Flores y Ramos a Domicilio">
+<meta name="description" content="Florerias en Lima Peru ➤ Tienda de Flores y Regalos Online ✓ Satisfacción Garantizada ✓ Pago Seguro ✓ Entregamos Su Pedido Hoy Mismo‎ ☎ 6419215">
+<meta name="keywords" content="Florerias en lima, flores en lima peru, Lima, Peru, delivery, norte, sur, oeste, oriente, flores a domicilio lima, arreglos, florales lima, ramos">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>Florerías en Lima - Florerías en Lima ᐅ Envió de Flores y Ramos a Domicilio</title>
+<link rel="stylesheet" type="text/css" media="all" href="index_files/d6c665c0b324f0dd18744fde9c1bdaca.min.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="index_files/styles-l.min.css">
+<link rel="stylesheet" type="text/css" media="print" href="index_files/print.min.css">
+<script type="text/javascript" src="index_files/0873286acda7b38e18a844976f41f62a.min.js"></script>
+<link rel="stylesheet" type="text/css" href="index_files/css.css">
+<link rel="icon" type="image/x-icon" href="https://www.floreriaslima.net/pub/media/favicon/default/favicon-flores-32x32.png">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.floreriaslima.net/pub/media/favicon/default/favicon-flores-32x32.png">
+
+<script>
+function _lionCalcTime(offset) {
+    var _lionLocalDate = new Date();
+    var _lionUTC = _lionLocalDate.getTime() + (_lionLocalDate.getTimezoneOffset() * 60000);
+    var nd = new Date(_lionUTC + (3600000 * offset));
+    return nd;
+}
+
+function _lioncheckSchedule() {
+    var date = _lionCalcTime(-5);
+
+    if (date.getDay() >= 1 && date.getDay() <= 5){
+        if (date.getHours() < 7 || date.getHours() >= 17){
+            return false;
+        }
+        if (date.getHours == 16 && date.getMinutes >= 45) {
+            return false
+        }
+    } else if (date.getDay() == 6) {
+        if (date.getHours() < 7 || date.getHours() >= 12){
+            return false;
+        }
+    } else if (date.getDay() == 0) {
+        return false;
+    }
+
+    return true;
+}
+
+function _lionSearchWhatsappLink(){
+    var element = document.querySelector(".contact-block.contact-whatsapp > a");
+ 
+    if(typeof(element) != 'undefined' && element != null)
+        return element.href;
+    else
+        return null;
+}
+
+function _lionCreateWhatsappButton(href){
+    var _lionElementDiv = document.createElement("div");
+    _lionElementDiv.id = "_lionWhatsappDiv";
+
+    var _lionElementLink = document.createElement("a");
+    _lionElementLink.href = href;
+    _lionElementLink.target = "_blank";
+    _lionElementLink.innerHTML = `
+    <svg class="svg-inline-whatsapp" aria-hidden="true" data-prefix="fab" data-icon="whatsapp" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>
+    `;
+
+    _lionElementDiv.appendChild(_lionElementLink)
+    _lionElementDiv.appendChild(document.createElement("div"));
+    _lionElementDiv.appendChild(document.createElement("div"));
+
+    document.body.appendChild(_lionElementDiv);
+}
+
+function _lionInit() {
+    if (_lioncheckSchedule()) {
+        _lionCreateGlobalStyles();
+
+        var _lionHref = _lionSearchWhatsappLink();
+        if (_lionHref) _lionCreateWhatsappButton(_lionHref);
+    }
+}
+
+function _lionCreateGlobalStyles(){
+    var style = document.createElement('style');
+
+    style.innerHTML = `
+    #_lionWhatsappDiv {
+        top: 200px;
+        position: fixed;
+        right: 15px;
+        z-index: 200;
+    }
+
+    #_lionWhatsappDiv > a {
+        width: 50px;
+        height: 50px;
+        color: #FFF;
+        background-color: #25d366;
+        display: block;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 26px;
+        box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+        position: relative;
+        z-index: 200;
+    }
+
+    #_lionWhatsappDiv > a:hover {
+        color: #1b6537!important
+    }
+
+    #_lionWhatsappDiv > div {
+        border: 6px solid #25d366;
+        position: absolute;
+        opacity: 1;
+        border-radius: 50%;
+        animation: _lionWaveKeyFrames 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+        z-index: 100;
+    }
+
+    #_lionWhatsappDiv > div:nth-child(2) {
+        animation-delay: -0.5s;
+    }
+
+    #_lionWhatsappDiv > a > .svg-inline-whatsapp {
+        display: inline-block;
+        width: .875em;
+        font-size: inherit;
+        height: 1em;
+        margin-top: 12px;
+        overflow: visible;
+        vertical-align: -.125em;
+    }
+
+    @keyframes _lionWaveKeyFrames {
+        0% {
+            top: 5px;
+            left: 5px;
+            width: 40px;
+            height: 40px;
+            opacity: 1;
+        }
+        100% {
+            top: -15px;
+            left: -15px;
+            width: 80px;
+            height: 80px;
+            opacity: 0;
+        }
+    }
+    `;
+    document.head.appendChild(style);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(_lionInit(), 5000);
+});
+</script> <link rel="stylesheet" href="index_files/css_004.css" type="text/css" media="screen"> <link href="index_files/css_002.css" rel="stylesheet"><link href="index_files/css_003.css" rel="stylesheet"><link rel="stylesheet" href="index_files/css_004.css" type="text/css" media="screen"> <link rel="stylesheet" type="text/css" media="all" href="index_files/bootstrap.optimized.min.css"> <link rel="stylesheet" type="text/css" media="all" href="index_files/animate.optimized.css"> <link rel="stylesheet" type="text/css" media="all" href="index_files/type8.css"><link rel="stylesheet" type="text/css" media="all" href="index_files/custom.css"><link rel="stylesheet" type="text/css" media="all" href="index_files/design_lima_es.css"><link rel="stylesheet" type="text/css" media="all" href="index_files/settings_lima_es.css"><script type="text/javascript">
+var porto_config = {
+    paths: {
+        'parallax': 'js/jquery.parallax.min',
+        'owlcarousel': 'owl.carousel/owl.carousel',
+        'owlcarousel_thumbs': 'owl.carousel/owl.carousel2.thumbs',
+        'imagesloaded': 'Smartwave_Porto/js/imagesloaded',
+        'packery': 'Smartwave_Porto/js/packery.pkgd',
+        'floatelement': 'js/jquery.floatelement'
+    },
+    shim: {
+        'parallax': {
+          deps: ['jquery']
+        },
+        'owlcarousel': {
+          deps: ['jquery']
+        },        
+        'owlcarousel_thumbs': {
+          deps: ['jquery','owlcarousel']
+        },    
+        'packery': {
+          deps: ['jquery','imagesloaded']
+        },
+        'floatelement': {
+          deps: ['jquery']
+        }
+    }
+};
+
+require.config(porto_config);</script><script type="text/javascript">
+require([
+    'jquery'
+], function ($) {
+    $(document).ready(function(){
+        $(".drop-menu > a").off("click").on("click", function(){
+            if($(this).parent().children(".nav-sections").hasClass("visible")) {
+                $(this).parent().children(".nav-sections").removeClass("visible");
+                $(this).removeClass("active");
+            }
+            else {
+                $(this).parent().children(".nav-sections").addClass("visible");
+                $(this).addClass("active");
+            }
+        });
+    });
+    var scrolled = false;
+    $(window).scroll(function(){
+        if(!$('.page-header').hasClass('type10')) {
+            if($(window).width()>=768){
+                if(160<$(window).scrollTop() && !scrolled){
+                    $('.page-header:not(.sticky-header)').css("height",$('.page-header:not(.sticky-header)').height()+'px');
+                    $('.page-header').addClass("sticky-header");
+                    scrolled = true;
+                    if((!$(".page-header").hasClass("type12")) && (!$(".page-header").hasClass("type23")) && (!$(".page-header").hasClass("type25")) && (!$(".page-header").hasClass("type26"))) {
+                        $('.page-header .minicart-wrapper').after('<div class="minicart-place hide"></div>');
+
+                        if($(".page-header").hasClass("type2"))
+                            $('.page-header .navigation').append($('header.page-header.type2 a.action.my-wishlist').detach());
+
+                        var minicart = $('.page-header .minicart-wrapper').detach();
+                        if($(".page-header").hasClass("type8"))
+                            $('.page-header .menu-wrapper').append(minicart);
+                        else
+                            $('.page-header .navigation').append(minicart);
+                        
+                         } else {
+                         }
+                     }
+                if(160>=$(window).scrollTop() && scrolled){
+                    $('.page-header.sticky-header').css("height",'auto');
+                    $('.page-header').removeClass("sticky-header");
+                    scrolled = false;
+                    if((!$(".page-header").hasClass("type12")) && (!$(".page-header").hasClass("type23")) && (!$(".page-header").hasClass("type25")) && (!$(".page-header").hasClass("type26"))) {
+                        var minicart;
+                        if($(".page-header").hasClass("type8"))
+                            minicart = $('.page-header .menu-wrapper .minicart-wrapper').detach();
+                        else
+                            minicart = $('.page-header .navigation .minicart-wrapper').detach();
+                        $('.minicart-place').after(minicart);
+                        $('.minicart-place').remove();
+                        if($(".page-header").hasClass("type2"))
+                            $('.page-header .block.block-search').before($('.page-header .navigation a.action.my-wishlist').detach());
+                        $('.page-header .minicart-wrapper-moved').addClass("minicart-wrapper").removeClass("minicart-wrapper-moved").removeClass("hide");
+                    }
+                     }
+            }
+        }
+    });
+ });</script>     <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="index_files/jquery.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.mobile.custom" src="index_files/jquery.mobile.custom.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dataPost" src="index_files/dataPost.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/bootstrap" src="index_files/bootstrap.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/template" src="index_files/template.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/confirm" src="index_files/confirm.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/widget" src="index_files/widget.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/apply/main" src="index_files/main.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bootstrap" src="index_files/bootstrap.min_003.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="underscore" src="index_files/underscore.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/translate" src="index_files/translate.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/modal" src="index_files/modal.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout" src="index_files/knockout.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-es5" src="index_files/knockout-es5.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="domReady" src="index_files/domReady.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/mage" src="index_files/mage.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="index_files/text.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/key-codes" src="index_files/key-codes.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/translate-inline" src="index_files/translate-inline.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/responsive" src="index_files/responsive.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/theme" src="index_files/theme.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/price-utils" src="index_files/price-utils.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Smartwave_Megamenu/js/sw_megamenu" src="index_files/sw_megamenu.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-migrate" src="index_files/jquery-migrate.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/common" src="index_files/common.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/dialog" src="index_files/dialog.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/tabs" src="index_files/tabs.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/patches/jquery" src="index_files/jquery.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/core" src="index_files/core.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/collapsible" src="index_files/collapsible.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/apply/scripts" src="index_files/scripts.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/button" src="index_files/button.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/draggable" src="index_files/draggable.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/position" src="index_files/position.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/resizable" src="index_files/resizable.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/engine" src="index_files/engine.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/bootstrap" src="index_files/bootstrap.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/extender/observable_array" src="index_files/observable_array.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/extender/bound-nodes" src="index_files/bound-nodes.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.cookie" src="index_files/jquery.cookie.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mpDevbridgeAutocomplete" src="index_files/jquery.autocomplete.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mageplaza/core/owl.carousel" src="index_files/owl.carousel.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="matchMedia" src="index_files/matchMedia.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/smart-keyboard-handler" src="index_files/smart-keyboard-handler.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/ie-class-fixer" src="index_files/ie-class-fixer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-repeat" src="index_files/knockout-repeat.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-fast-foreach" src="index_files/knockout-fast-foreach.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/wrapper" src="index_files/wrapper.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/events" src="index_files/events.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="es6-collections" src="index_files/es6-collections.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-storageapi" src="index_files/jquery.storageapi.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/jquery.stellar.min" src="index_files/jquery.stellar.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/mouse" src="index_files/mouse.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/jquery.lazyload" src="index_files/jquery.lazyload.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/observable_source" src="index_files/observable_source.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/renderer" src="index_files/renderer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/console-logger" src="index_files/console-logger.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/resizable" src="index_files/resizable.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/class" src="index_files/class.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/i18n" src="index_files/i18n.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/storage/local" src="index_files/local.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/async" src="index_files/async.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/registry/registry" src="index_files/registry.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/main" src="index_files/main.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/scope" src="index_files/scope.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/range" src="index_files/range.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/mage-init" src="index_files/mage-init.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/keyboard" src="index_files/keyboard.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/optgroup" src="index_files/optgroup.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/after-render" src="index_files/after-render.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/autoselect" src="index_files/autoselect.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/datepicker" src="index_files/datepicker.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/outer_click" src="index_files/outer_click.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/fadeVisible" src="index_files/fadeVisible.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/slider" src="index_files/slider.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/collapsible" src="index_files/collapsible.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/staticChecked" src="index_files/staticChecked.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/simple-checked" src="index_files/simple-checked.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/bind-html" src="index_files/bind-html.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/tooltip" src="index_files/tooltip.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/color-picker" src="index_files/color-picker.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/calendar" src="index_files/calendar.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/logger" src="index_files/logger.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/entry-factory" src="index_files/entry-factory.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spectrum" src="index_files/spectrum.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="tinycolor" src="index_files/tinycolor.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/console-output-handler" src="index_files/console-output-handler.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/formatter" src="index_files/formatter.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/message-pool" src="index_files/message-pool.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/datepicker" src="index_files/datepicker.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/timepicker" src="index_files/timepicker.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/levels-pool" src="index_files/levels-pool.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/logger-utils" src="index_files/logger-utils.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/loader" src="index_files/loader.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/template" src="index_files/template.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/dom-observer" src="index_files/dom-observer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/bindings" src="index_files/bindings.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/arrays" src="index_files/arrays.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/objects" src="index_files/objects.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/strings" src="index_files/strings.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/compare" src="index_files/compare.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/misc" src="index_files/misc.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="moment" src="index_files/moment.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/entry" src="index_files/entry.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="FormData" src="index_files/FormData.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MutationObserver" src="index_files/MutationObserver.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/loader" src="index_files/loader.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_PageCache/js/page-cache" src="index_files/page-cache.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dropdown" src="index_files/dropdown.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/validation/validation" src="index_files/validation.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/cookies" src="index_files/cookies.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/app" src="index_files/app.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/validation" src="index_files/validation.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Search/js/form-mini" src="index_files/form-mini.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/validate" src="index_files/jquery.validate.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_GoogleAnalytics/js/google-analytics" src="index_files/google-analytics.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/block-loader" src="index_files/block-loader.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/section-config" src="index_files/section-config.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/invalidation-processor" src="index_files/invalidation-processor.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/renderer/types" src="index_files/types.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/element/element" src="index_files/element.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.metadata" src="index_files/jquery.metadata.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/renderer/layout" src="index_files/layout.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/customer-data" src="index_files/customer-data.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Persistent/js/view/customer-data-mixin" src="index_files/customer-data-mixin.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/url" src="index_files/url.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/storage" src="index_files/storage.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/element/links" src="index_files/links.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/view/minicart" src="index_files/minicart.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/collection" src="index_files/collection.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Tax/js/view/checkout/minicart/subtotal/totals" src="index_files/totals.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Msrp/js/view/checkout/minicart/subtotal/totals" src="index_files/totals.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/view/image" src="index_files/image.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/view/authentication-popup" src="index_files/authentication-popup.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/view/checkout/loginCaptcha" src="index_files/loginCaptcha.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MSP_ReCaptcha/js/reCaptcha" src="index_files/reCaptcha.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/view/customer" src="index_files/customer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/view/messages" src="index_files/messages.min_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/storage-manager" src="index_files/storage-manager.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/view/messages" src="index_files/messages.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MSP_ReCaptcha/js/ui-messages-mixin" src="index_files/ui-messages-mixin.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="StripeIntegration_Payments/js/messages-mixin" src="index_files/messages-mixin.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/sidebar" src="index_files/sidebar.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/invalidation-rules/website-rule" src="index_files/website-rule.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/form/form" src="index_files/form.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/action/login" src="index_files/login.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/model/authentication-popup" src="index_files/authentication-popup.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/alert" src="index_files/alert.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/view/checkout/defaultCaptcha" src="index_files/defaultCaptcha.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/model/captchaList" src="index_files/captchaList.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MSP_ReCaptcha/js/registry" src="index_files/registry.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/storage-service" src="index_files/storage-service.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-blind" src="index_files/effect-blind.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/decorate" src="index_files/decorate.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-fade" src="index_files/effect-fade.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/spinner" src="index_files/spinner.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/requirejs/resolver" src="index_files/resolver.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/model/messageList" src="index_files/messageList.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/model/captcha" src="index_files/captcha.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/ids-storage" src="index_files/ids-storage.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/data-storage" src="index_files/data-storage.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/ids-storage-compare" src="index_files/ids-storage-compare.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect" src="index_files/effect.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/action/refresh" src="index_files/refresh.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/form/adapter" src="index_files/adapter.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/model/messages" src="index_files/messages.min_003.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/query-builder" src="index_files/query-builder.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/form/adapter/buttons" src="index_files/buttons.min.js"></script><script charset="utf-8" src="index_files/twk-chunk-2c78ba82.js"></script><script charset="utf-8" src="index_files/twk-chunk-696bc286.js"></script><script charset="utf-8" src="index_files/twk-chunk-f1596d96.js"></script><script charset="utf-8" src="index_files/twk-chunk-48f46bef.js"></script><script charset="utf-8" src="index_files/twk-chunk-4fe9d5dd.js"></script><script charset="utf-8" src="index_files/twk-chunk-2d0b9454.js"></script><script charset="utf-8" src="index_files/twk-chunk-f163fcd0.js"></script><script charset="utf-8" src="index_files/twk-chunk-32507910.js"></script><style type="text/css">#y06uaeiu3vps1674327740150 {outline:none !important;
+visibility:visible !important;
+resize:none !important;
+box-shadow:none !important;
+overflow:visible !important;
+background:none !important;
+opacity:1 !important;
+filter:alpha(opacity=100) !important;
+-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important;
+-mz-opacity:1 !important;
+-khtml-opacity:1 !important;
+top:auto !important;
+right:0px !important;
+bottom:0px !important;
+left:auto !important;
+position:fixed !important;
+border:0 !important;
+min-height:0px  !important;
+min-width:0px  !important;
+max-height:none  !important;
+max-width:none  !important;
+padding:0px !important;
+margin:0px !important;
+-moz-transition-property:none !important;
+-webkit-transition-property:none !important;
+-o-transition-property:none !important;
+transition-property:none !important;
+transform:none !important;
+-webkit-transform:none !important;
+-ms-transform:none !important;
+width:auto !important;
+height:auto  !important;
+display:none !important;
+z-index:2000000000 !important;
+background-color:transparent !important;
+cursor:none !important;
+float:none !important;
+border-radius:unset !important;
+pointer-events:auto !important;
+clip:auto !important;
+color-scheme:light !important;}#y06uaeiu3vps1674327740150.widget-hidden {display: none !important;}#y06uaeiu3vps1674327740150.widget-visible {display: block !important;}
+@media print{
+ #y06uaeiu3vps1674327740150.widget-visible { 
+display: none !important;
+ }
+}</style><script src="index_files/emojione.min.js" type="text/javascript" async="" defer="defer"></script><script src="index_files/emojione.min.js" type="text/javascript" async="" defer="defer"></script><style type="text/css">@keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-moz-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-webkit-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}#w6hdnh3h9i681674327740473.open{animation : tawkMaxOpen .25s ease!important;}@keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}@-moz-keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}@-webkit-keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}#w6hdnh3h9i681674327740473.closed{animation: tawkMaxClose .25s ease!important}</style></head><body data-container="body" class="cms-home-lima layout-1280 wide am-porto-cmtb cms-index-index page-layout-1column"> <script>
+    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });</script> <script>
+        require.config({
+            deps: [
+                'jquery',
+                'mage/translate',
+                'jquery/jquery-storageapi'
+            ],
+            callback: function ($) {
+                'use strict';
+
+                var dependencies = [],
+                    versionObj;
+
+                $.initNamespaceStorage('mage-translation-storage');
+                $.initNamespaceStorage('mage-translation-file-version');
+                versionObj = $.localStorage.get('mage-translation-file-version');
+
+                 if (versionObj.version !== 'f457bc851bf32b877dc13ba539182a06d6069a56') {
+                    dependencies.push(
+                        'text!js-translation.json'
+                    );
+
+                }
+
+                require.config({
+                    deps: dependencies,
+                    callback: function (string) {
+                        if (typeof string === 'string') {
+                            $.mage.translate.add(JSON.parse(string));
+                            $.localStorage.set('mage-translation-storage', string);
+                            $.localStorage.set(
+                                'mage-translation-file-version',
+                                {
+                                    version: 'f457bc851bf32b877dc13ba539182a06d6069a56'
+                                }
+                            );
+                        } else {
+                            $.mage.translate.add($.localStorage.get('mage-translation-storage'));
+                        }
+                    }
+                });
+            }
+        });</script>  <noscript><div class="message global noscript"><div class="content"><p><strong>Parece que JavaScript está deshabilitado en su navegador.</strong> <span>Para obtener la mejor experiencia en nuestro sitio, asegúrese de activar Javascript en su navegador.</span></p></div></div></noscript>   <script type="text/javascript">
+require([
+    'jquery'
+], function ($) {
+    if(!$("body").hasClass("page-layout-1column") && !$("body").hasClass("account")) {
+        $(".sidebar-main").css("position","relative");
+        $(".sidebar-additional").css("position","relative");
+        var main_area_pos;
+        var main_area_height = $(".column.main").outerHeight();
+        var left_side_top = 0;
+        var right_side_top = 0;
+        var cur_Y = pre_Y = 0;
+        $(document).ready(function(){
+            setTimeout(function(){stickySidebar();},1000);
+        });
+        $(window).scroll(function(){
+            stickySidebar();
+        });
+        $(window).resize(function(){
+            left_side_top = 0;
+            stickySidebar();
+        });
+        function stickySidebar(){
+            if($(".column.main").offset()) {
+                main_area_pos = $(".column.main").offset().top;
+            }
+            main_area_height = $(".column.main").outerHeight();
+            margin_top = $(".page-header").hasClass("sticky-header")?60:10;
+            margin_bottom = 10;
+            var fixedSideTop = fixedSideBottom = fixedSideTop_r = fixedSideBottom_r = 0;
+            cur_Y = $(window).scrollTop();
+            if($(".sidebar-main").outerHeight() < main_area_height) {
+                if($(window).height() < $(".sidebar-main").outerHeight() + margin_top + margin_bottom) {
+                    if(main_area_pos >= cur_Y + margin_top) {
+                        left_side_top = 0;
+                    } else if(cur_Y >= main_area_pos + main_area_height - $(window).height()) {
+                        left_side_top = main_area_height - $(".sidebar-main").outerHeight();
+                    } else {
+                        if ( cur_Y > pre_Y ) {
+                            if(fixedSideTop) {
+                                fixedSideTop = 0;
+                                left_side_top = $(".sidebar-main").offset().top - main_area_pos;
+                            } else if(!fixedSideBottom && $(".sidebar-main").outerHeight() + $(".sidebar-main").offset().top < cur_Y + $(window).height()) {
+                                fixedSideBottom = 1;
+                                left_side_top = cur_Y - (main_area_pos + $(".sidebar-main").outerHeight() - $(window).height()) - 10
+                            }
+                        } else {
+                            if(fixedSideBottom) {
+                                fixedSideBottom = 0;
+                                left_side_top = cur_Y - main_area_pos - $(".sidebar-main").outerHeight() + $(window).height() - 10;
+                            } else if(!fixedSideTop && $(".sidebar-main").offset().top >= cur_Y + margin_top) {
+                                fixedSideTop = 1;
+                                left_side_top = cur_Y - main_area_pos + margin_top;
+                            }
+
+                        }
+                    }
+                } else {
+                    if ( cur_Y >= ( main_area_pos - margin_top ) && cur_Y + $(".sidebar-main").outerHeight() + margin_top < main_area_pos + main_area_height) {
+                        left_side_top = cur_Y - main_area_pos + margin_top;
+                    } else if(cur_Y + $(".sidebar-main").outerHeight() + margin_top > main_area_pos + main_area_height) {
+                        left_side_top = main_area_height - $(".sidebar-main").outerHeight();
+                    } else {
+                        left_side_top = 0;
+                    }
+
+                    fixedSideTop = fixedSideBottom = 0;
+                }
+                $(".sidebar-main").css("top",left_side_top + "px");
+            } else {
+                $(".sidebar-main").css("top",0);
+            }
+            if($(".sidebar-additional").outerHeight() < main_area_height) {
+                if($(window).height() < $(".sidebar-additional").outerHeight() + margin_top + margin_bottom) {
+                    if(main_area_pos >= cur_Y + margin_top) {
+                        right_side_top = 0;
+                    } else if(cur_Y >= main_area_pos + main_area_height - $(window).height()) {
+                        right_side_top = main_area_height - $(".sidebar-additional").outerHeight();
+                    } else {
+                        if ( cur_Y > pre_Y ) {
+                            if(fixedSideTop_r) {
+                                fixedSideTop_r = 0;
+                                right_side_top = $(".sidebar-additional").offset().top - main_area_pos;
+                            } else if(!fixedSideBottom_r && $(".sidebar-additional").outerHeight() + $(".sidebar-additional").offset().top < cur_Y + $(window).height()) {
+                                fixedSideBottom_r = 1;
+                                right_side_top = cur_Y - (main_area_pos + $(".sidebar-additional").outerHeight() - $(window).height()) - 10
+                            }
+                        } else {
+                            if(fixedSideBottom_r) {
+                                fixedSideBottom_r = 0;
+                                right_side_top = $(".sidebar-additional").offset().top - main_area_pos;
+                            } else if(!fixedSideTop_r && $(".sidebar-additional").offset().top >= cur_Y + margin_top) {
+                                fixedSideTop_r = 1;
+                                right_side_top = cur_Y - main_area_pos + margin_top;
+                            }
+
+                        }
+                    }
+                } else {
+                    if ( cur_Y >= ( main_area_pos - margin_top ) && cur_Y + $(".sidebar-additional").outerHeight() + margin_top < main_area_pos + main_area_height) {
+                        right_side_top = cur_Y - main_area_pos + margin_top;
+                    } else if(cur_Y + $(".sidebar-additional").outerHeight() + margin_top > main_area_pos + main_area_height) {
+                        right_side_top = main_area_height - $(".sidebar-additional").outerHeight();
+                    } else {
+                        right_side_top = 0;
+                    }
+
+                    fixedSideTop_r = fixedSideBottom_r = 0;
+                }
+                $(".sidebar-additional").css("top",right_side_top + "px");
+            }
+            pre_Y = cur_Y;
+        }
+    }
+});</script><div class="page-wrapper"> <header class="page-header type8 header-newskin"><script type="text/javascript">
+require([
+    'jquery'
+], function ($) {
+    $(document).ready(function(){
+        var href = $(".header.links .authorization-link > a").attr("href");
+        if(href.indexOf("logout") == -1) {
+            $(".block-header-customer-login").detach().appendTo(".authorization-link");
+            $(".block-header-customer-login").click(function(e){
+                e.stopPropagation();
+            })
+            $("html,body").click(function(){
+                if($(".block-header-customer-login").hasClass("open"))
+                    $(".block-header-customer-login").removeClass("open");
+            });
+            $(".header.links .authorization-link > a").off("click").on("click", function(){
+                if(!$(".block-header-customer-login").hasClass("open"))
+                    $(".block-header-customer-login").addClass("open");
+                else
+                    $(".block-header-customer-login").removeClass("open");
+                    
+                return false;
+            });
+        }
+    });
+});</script> <div class="panel wrapper"><div class="panel header"> <a class="action skip contentarea" href="#contentarea"><span> Ir al contenido</span></a> <div class="switcher currency switcher-currency" id="switcher-currency"><strong class="label switcher-label"><span>Moneda</span></strong> <div class="actions dropdown options switcher-options"><div class="action toggle switcher-trigger" id="switcher-currency-trigger"><strong class="language-PEN"><span>PEN - sol peruano</span></strong></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" style="display: none;" tabindex="-1" role="dialog" aria-describedby="ui-id-1"><ul class="dropdown switcher-dropdown ui-dialog-content ui-widget-content" id="ui-id-1" style="display: block;"> <li class="currency-USD switcher-option"><a href="#" data-post="{&quot;action&quot;:&quot;https:\/\/www.floreriaslima.net\/directory\/currency\/switch\/&quot;,&quot;data&quot;:{&quot;currency&quot;:&quot;USD&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv&quot;}}">USD - dólar estadounidense</a></li> </ul></div></div></div> <ul class="header links"> <li class="greet welcome" data-bind="scope: 'customer'"><!-- ko if: customer().fullname --><!-- /ko --><!-- ko ifnot: customer().fullname --><span class="not-logged-in" data-bind="html:&quot;¡Tus flores a domicilio en Lima Perú!&quot;">¡Tus flores a domicilio en Lima Perú!</span> <!-- /ko --></li>  <li><a href="https://www.floreriaslima.net/contact">Contáctenos</a></li> <li class="authorization-link" data-label="o"><a href="https://www.floreriaslima.net/customer/account/login/">Iniciar sesión</a><div class="block block-customer-login block-header-customer-login"><div class="block-content" aria-labelledby="block-customer-login-heading"><form class="form form-login" action="https://www.floreriaslima.net/customer/account/loginPost/" method="post" id="header-login-form" novalidate="novalidate"><input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <fieldset class="fieldset login" data-hasrequired="* Campos obligatorios"><div class="field email required"><div class="control"><input name="login[username]" autocomplete="off" id="email" type="email" class="input-text" title="Correo electrónico" data-validate="{required:true, 'validate-email':true}" placeholder="Correo electrónico" aria-required="true"></div></div><div class="field password required"><div class="control"><input name="login[password]" type="password" autocomplete="off" class="input-text" id="pass" title="Contraseña" data-validate="{required:true}" placeholder="Contraseña" aria-required="true"></div></div><div class="actions-toolbar"><div class="primary"><button type="submit" class="action login primary" name="send" id="send2"><span>Iniciar sesión</span></button></div><div class="secondary"><a class="action remind" href="https://www.floreriaslima.net/customer/account/forgotpassword/"><span>¿Olvidó su contraseña?</span></a></div></div></fieldset></form></div></div></li><li><a href="https://www.floreriaslima.net/customer/account/create/">Crear una cuenta</a></li></ul></div></div><div class="header content"> <strong class="logo"> <img src="index_files/logo-florerias-lima.png" alt="Florerías en Lima" width="189" height="76"></strong> <div data-block="minicart" class="minicart-wrapper"><a class="action showcart" href="https://www.floreriaslima.net/checkout/cart/" data-bind="scope: 'minicart_content'"><span class="text">Cart</span> <span class="counter qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading"><span class="counter-number"><!-- ko if: getCartParam('summary_count') --><!-- /ko --><!-- ko ifnot: getCartParam('summary_count') -->0<!-- /ko --></span> <span class="counter-label"><!-- ko i18n: 'items' --><span>artículos</span><!-- /ko --></span></span></a>  <script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/www.floreriaslima.net\/checkout\/cart\/","checkoutUrl":"https:\/\/www.floreriaslima.net\/checkout\/","updateItemQtyUrl":"https:\/\/www.floreriaslima.net\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/www.floreriaslima.net\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/www.floreriaslima.net\/","minicartMaxItemsVisible":3,"websiteId":"3","maxItemsToDisplay":10,"storeId":"8","customerLoginUrl":"https:\/\/www.floreriaslima.net\/customer\/account\/login\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.floreriaslima.net\/captcha\/refresh\/","isRequired":false,"timestamp":1674247206}}};</script><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" style="display: none;" tabindex="-1" role="dialog" aria-describedby="ui-id-2"><div class="block block-minicart empty ui-dialog-content ui-widget-content" data-role="dropdownDialog" id="ui-id-2" style="display: block;"><div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'"><!-- ko template: getTemplate() -->
+<div class="block-title">
+<strong>
+<span class="text"><!-- ko i18n: 'My Cart' --><span>Mi cesta</span><!-- /ko --></span>
+<span class="qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false },
+                       attr: { title: $t('Items in Cart') }" title="Artículos en el carrito">
+<!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+</span>
+</strong>
+</div>
+<div class="block-content">
+<button type="button" id="btn-minicart-close" class="action close" data-action="close" data-bind="attr: { title: $t('Close') }" title="Cerrar">
+<span><!-- ko i18n: 'Close' --><span>Cerrar</span><!-- /ko --></span>
+</button>
+<!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+<!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+<!-- ko ifnot: getCartParam('summary_count') -->
+<strong class="subtitle empty" data-bind="visible: closeSidebar()">
+<!-- ko i18n: 'You have no items in your shopping cart.' --><span>No tienes ningún artículo en tu carrito.</span><!-- /ko -->
+</strong>
+<!-- ko if: getCartParam('cart_empty_message') --><!-- /ko -->
+<!-- /ko -->
+<!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+<div id="minicart-widgets" class="minicart-widgets">
+<!-- ko foreach: getRegion('promotion') -->
+<!-- ko template: getTemplate() -->
+<!-- ko foreach: {data: elems, as: 'element'} --><!-- /ko -->
+<!-- /ko -->
+<!-- /ko -->
+</div>
+</div>
+<!-- ko foreach: getRegion('sign-in-popup') --><!-- /ko -->
+<!-- /ko --></div></div></div></div> <span data-action="toggle-nav" class="action nav-toggle"><span>Toggle Nav</span></span> <div class="block block-search"><div class="block block-title"><strong>Buscar</strong></div><div class="block block-content"><form class="form minisearch" id="search_mini_form" action="https://www.floreriaslima.net/catalogsearch/result/" method="get"><div class="field search"><label class="label" for="search" data-role="minisearch-label"><span>Buscar</span></label> <div class="control"><input id="search" type="text" name="q" placeholder="Buscar..." class="input-text" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off"><div id="search_autocomplete" class="search-autocomplete"></div> <div class="nested"><a class="action advanced" href="https://www.floreriaslima.net/catalogsearch/advanced/" data-action="advanced-search">Búsqueda avanzada</a></div> <div class="search-category" style="position:absolute; top: 0; right: 35px; width: 130px"><select id="mpsearch-category"> <option value="0" selected="selected">Categorías</option> <option value="23">Ocasiones</option> <option value="24">- Agradecimientos</option> <option value="25">- Aniversario</option> <option value="26">- Condolencias</option> <option value="27">- Cumpleaños</option> <option value="28">- Lo Siento</option> <option value="29">- Mejorate Pronto</option> <option value="30">- Nacimiento de Bebé</option> <option value="31">- Solo Porque Sí</option> <option value="32">- Te Quiero</option> <option value="43">- Ramos de Novia</option> <option value="3">Flores</option> <option value="4">- Rosas</option> <option value="5">- Gerberas</option> <option value="6">- Girasoles</option> <option value="7">- Lirios</option> <option value="9">- Otras Flores</option> <option value="33">HOY MISMO</option> <option value="34">Categorías</option> <option value="35">- Bouquets/Cajas Largas</option> <option value="42">- Arreglos Florales</option> <option value="36">- Jarrones o Floreros</option> <option value="37">- Bases</option> <option value="38">- Exóticos</option> <option value="39">- Deluxe</option></select></div> <script src="index_files/lima_es_0.js"></script><script type="text/javascript">
+    require([
+        'jquery',
+        'Magento_Catalog/js/price-utils',
+        'mpDevbridgeAutocomplete'
+    ], function ($, priceUtils) {
+        "use strict";
+
+        var baseUrl = 'https://www.floreriaslima.net/',
+            baseImageUrl = 'https://www.floreriaslima.net/pub/media/catalog/product/',
+            priceFormat = {"pattern":"SOL$ %s","precision":"2","requiredPrecision":"2","decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false,"showMinus":"before_value","symbol":"SOL$","minusSign":"-"},
+            displayInfo = ["price","image","description"];
+
+        var categorySelect = $('#mpsearch-category'),
+            searchInput = $('#search');
+        if (categorySelect.length) {
+            categorySelect.on('change', function () {
+                searchInput.focus();
+
+                if ($(this).val() === 0) {
+                    $(this).removeAttr('name');
+                } else {
+                    $(this).attr('name', 'cat');
+                }
+            });
+        }
+
+        searchInput.devbridgeAutocomplete({
+            lookup: mageplazaSearchProducts,
+            lookupLimit: 10,
+            maxHeight: 2000,
+            minChars: 3,
+            lookupFilter: function (suggestion, query, queryLowerCase) {
+                if (categorySelect.length) {
+                    var categoryId = categorySelect.val();
+                    if (categoryId > 0 && ($.inArray(categoryId, suggestion.c) === -1)) {
+                        return false;
+                    }
+                }
+
+                return suggestion.value.toLowerCase().indexOf(queryLowerCase) !== -1;
+            },
+            onSelect: function (suggestion) {
+                window.location.href = correctProductUrl(suggestion.u);
+            },
+            formatResult: function (suggestion, currentValue) {
+                var html = '<a href="' + correctProductUrl(suggestion.u) + '">';
+
+                if ($.inArray('image', displayInfo) !== -1) {
+                    html += '<div class="suggestion-left"><img class="img-responsive" src="' + correctProductUrl(suggestion.i, true) + '" alt="" /></div>';
+                }
+
+                html += '<div class="suggestion-right">';
+                html += '<div class="product-line product-name">' + suggestion.value + '</div>';
+
+                if ($.inArray('price', displayInfo) !== -1) {
+                    html += '<div class="product-line product-price">Price: ' + priceUtils.formatPrice(suggestion.p, priceFormat) + '</div>';
+                }
+
+                if ($.inArray('description', displayInfo) !== -1 && suggestion.d) {
+                    html += '<div class="product-des"><p class="short-des">' + suggestion.d + '...</p></div>';
+                }
+
+                html += '</div></a>';
+
+                return html;
+            }
+    
+    
+    
+    
+    
+    
+        });
+
+        function correctProductUrl(urlKey, isImage) {
+            if (urlKey.search('http') !== -1) {
+                return urlKey;
+            }
+
+            return ((typeof isImage !== 'undefined') ? baseImageUrl : baseUrl) + urlKey;
+        }
+    });</script></div></div><div class="actions"><button type="submit" title="Buscar" class="action search" disabled="disabled"><span>Buscar</span></button></div></form></div></div> <div class="custom-block"><div class="contact-block contact-whatsapp"><a href="https://wa.me/573156692760" target="_blank"><i class="fab fa-whatsapp contact-icon"></i><span class="contact-info">ESCRIBENOS<br><strong>WHATSAPP</strong></span></a></div>
+<div class="contact-block contact-phone"><a href="tel:6419215" target="_blank"><i class="fas fa-phone fa-rotate-90 contact-icon"></i><span class="contact-info">LLÁMANOS HOY<br><strong>6419215</strong></span></a></div></div></div><div class="menu-container"> <div class="container"><div class="menu-wrapper"><div class="drop-menu"><a href="javascript:void(0)"><em class="porto-icon-menu"></em> COMPRAR POR CATEGORÍA</a> <div class="sections nav-sections"> <div class="section-items nav-sections-items" role="tablist"> <div class="section-item-title nav-sections-item-title active" data-role="collapsible" role="tab" data-collapsible="true" aria-controls="store.menu" aria-selected="false" aria-expanded="true" tabindex="0"><a class="nav-sections-item-switch" data-toggle="switch" href="#store.menu">Menú</a></div><div class="section-item-content nav-sections-item-content" id="store.menu" data-role="content" role="tabpanel" aria-hidden="false"> <nav class="navigation sw-megamenu side-megamenu" role="navigation"><ul>
+<li class="ui-menu-item level0">
+<a href="https://www.floreriaslima.net/" class="level-top"><span>Inicio</span></a>
+</li>
+<li class="ui-menu-item level0 classic parent "><div class="open-children-toggle"></div><a href="https://www.floreriaslima.net/categorias" class="level-top" title="Categorías"><span>Categorías</span></a><div class="level0 submenu" style="left: -9999px; right: auto;"><div class="row"><ul class="subchildmenu "><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/categorias/bouquets" title="Bouquets/Cajas Largas"><span>Bouquets/Cajas Largas</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/categorias/arreglos-florales" title="Arreglos Florales"><span>Arreglos Florales</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/categorias/floreros" title="Jarrones o Floreros"><span>Jarrones o Floreros</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/categorias/bases" title="Bases"><span>Bases</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/categorias/exoticos" title="Exóticos"><span>Exóticos</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/categorias/cajas-de-lujo" title="Deluxe"><span>Deluxe</span></a></li></ul></div></div></li><li class="ui-menu-item level0 classic parent "><div class="open-children-toggle"></div><a href="https://www.floreriaslima.net/flores" class="level-top" title="Flores"><span>Flores</span></a><div class="level0 submenu" style="left: -9999px; right: auto;"><div class="row"><ul class="subchildmenu "><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/flores/rosas" title="Rosas"><span>Rosas</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/flores/gerberas" title="Gerberas"><span>Gerberas</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/flores/girasoles" title="Girasoles"><span>Girasoles</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/flores/lirios" title="Lirios"><span>Lirios</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/flores/otras-flores" title="Otras Flores"><span>Otras Flores</span></a></li></ul></div></div></li><li class="ui-menu-item level0 classic parent "><div class="open-children-toggle"></div><a href="https://www.floreriaslima.net/ocasiones" class="level-top" title="Ocasiones"><span>Ocasiones</span></a><div class="level0 submenu" style="left: -9999px; right: auto;"><div class="row"><ul class="subchildmenu "><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/ocasiones/agradecimientos" title="Agradecimientos"><span>Agradecimientos</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/ocasiones/aniversario" title="Aniversario"><span>Aniversario</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/ocasiones/condolencias" title="Condolencias"><span>Condolencias</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/ocasiones/cumplea-os" title="Cumpleaños"><span>Cumpleaños</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/ocasiones/lo-siento" title="Lo Siento"><span>Lo Siento</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/ocasiones/mejorate-pronto" title="Mejorate Pronto"><span>Mejorate Pronto</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/ocasiones/nacimiento-de-bebe" title="Nacimiento de Bebé"><span>Nacimiento de Bebé</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/ocasiones/solo-porque-si" title="Solo Porque Sí"><span>Solo Porque Sí</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/ocasiones/te-quiero" title="Te Quiero"><span>Te Quiero</span></a></li><li class="ui-menu-item level1 "><a href="https://www.floreriaslima.net/ocasiones/ramos-de-novia" title="Ramos de Novia"><span>Ramos de Novia</span></a></li></ul></div></div></li><li class="ui-menu-item level0 classic "><a href="https://www.floreriaslima.net/hoy-mismo" class="level-top" title="HOY MISMO"><span>HOY MISMO</span></a></li>
+<li class="ui-menu-item level0">
+<a href="https://www.floreriaslima.net/contact/" class="level-top"><span>Contáctenos</span></a>
+</li>
+</ul></nav><script type="text/javascript">
+    require([
+        'jquery',
+        'Smartwave_Megamenu/js/sw_megamenu'
+    ], function ($) {
+        $(".sw-megamenu").swMegamenu();
+    });</script></div> <div class="section-item-title nav-sections-item-title" data-role="collapsible" role="tab" data-collapsible="true" aria-controls="store.links" aria-selected="false" aria-expanded="false" tabindex="0"><a class="nav-sections-item-switch" data-toggle="switch" href="#store.links">Cuenta</a></div><div class="section-item-content nav-sections-item-content" id="store.links" data-role="content" role="tabpanel" aria-hidden="true" style="display: none;"><ul class="header links"> <li class="greet welcome" data-bind="scope: 'customer'"><!-- ko if: customer().fullname --><!-- /ko --><!-- ko ifnot: customer().fullname --><span class="not-logged-in" data-bind="html:&quot;¡Tus flores a domicilio en Lima Perú!&quot;">¡Tus flores a domicilio en Lima Perú!</span> <!-- /ko --></li>  <li><a href="https://www.floreriaslima.net/contact">Contáctenos</a></li> <li class="authorization-link" data-label="o"><a href="https://www.floreriaslima.net/customer/account/login/">Iniciar sesión</a><div class="block block-customer-login block-header-customer-login"><div class="block-content" aria-labelledby="block-customer-login-heading"><form class="form form-login" action="https://www.floreriaslima.net/customer/account/loginPost/" method="post" id="header-login-form" novalidate="novalidate"><input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <fieldset class="fieldset login" data-hasrequired="* Campos obligatorios"><div class="field email required"><div class="control"><input name="login[username]" autocomplete="off" id="email" type="email" class="input-text" title="Correo electrónico" data-validate="{required:true, 'validate-email':true}" placeholder="Correo electrónico" aria-required="true"></div></div><div class="field password required"><div class="control"><input name="login[password]" type="password" autocomplete="off" class="input-text" id="pass" title="Contraseña" data-validate="{required:true}" placeholder="Contraseña" aria-required="true"></div></div><div class="actions-toolbar"><div class="primary"><button type="submit" class="action login primary" name="send" id="send2"><span>Iniciar sesión</span></button></div><div class="secondary"><a class="action remind" href="https://www.floreriaslima.net/customer/account/forgotpassword/"><span>¿Olvidó su contraseña?</span></a></div></div></fieldset></form></div></div></li><li><a href="https://www.floreriaslima.net/customer/account/create/">Crear una cuenta</a></li></ul></div> <div class="section-item-title nav-sections-item-title" data-role="collapsible" role="tab" data-collapsible="true" aria-controls="store.settings" aria-selected="false" aria-expanded="false" tabindex="0"><a class="nav-sections-item-switch" data-toggle="switch" href="#store.settings">Configuración</a></div><div class="section-item-content nav-sections-item-content" id="store.settings" data-role="content" role="tabpanel" aria-hidden="true" style="display: none;"> <div class="switcher currency switcher-currency" id="switcher-currency-nav"><strong class="label switcher-label"><span>Moneda</span></strong> <div class="actions dropdown options switcher-options"><div class="action toggle switcher-trigger" id="switcher-currency-trigger-nav"><strong class="language-PEN"><span>PEN - sol peruano</span></strong></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" style="display: none;" tabindex="-1" role="dialog" aria-describedby="ui-id-3"><ul class="dropdown switcher-dropdown ui-dialog-content ui-widget-content" id="ui-id-3" style="display: block;"> <li class="currency-USD switcher-option"><a href="#" data-post="{&quot;action&quot;:&quot;https:\/\/www.floreriaslima.net\/directory\/currency\/switch\/&quot;,&quot;data&quot;:{&quot;currency&quot;:&quot;USD&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv&quot;}}">USD - dólar estadounidense</a></li> </ul></div></div></div></div></div></div></div><div class="custom-menu-block"><a href="https://www.floreriaslima.net/ocasiones/cumplea-os">CUMPLEAÑOS</a>
+<a href="https://www.floreriaslima.net/ocasiones/condolencias">CONDOLENCIAS</a>
+<a href="https://www.floreriaslima.net/hoy-mismo">HOY MISMO</a></div></div></div></div></header> <main id="maincontent" class="page-main"> <a id="contentarea" tabindex="-1"></a> <div class="page messages"> <div data-placeholder="messages"></div> <div data-bind="scope: 'messages'"><!-- ko if: cookieMessages && cookieMessages.length > 0 --><!-- /ko --><!-- ko if: messages().messages && messages().messages.length > 0 --><!-- /ko --></div></div><div class="columns"><div class="column main"><input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;"><script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/www.floreriaslima.net\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.floreriaslima.net\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.floreriaslima.net\/"};</script><!-- ko template: getTemplate() -->
+
+<!-- /ko --></div>     <div class="row" style="background-color: #fff; margin-top: -20px;">
+<div class="col-lg-12">
+<div class="row">
+<div class="col-xl-3">&nbsp;</div>
+<div class="col-xl-9" style="padding-top: 25px;"> <div class="carousel-container"><div id="banner-slider-carousel"> <div id="bannerslider-list-items-4-63cafc2727219" class="owl-carousel owl-theme owl-loaded owl-drag">  <div class="owl-stage-outer owl-height" style="height: 408px;"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 930px;"><div class="owl-item active" style="width: auto;"><div class="banner-item banner-slider"> <div class="item-image"> <img class="owl-image img-responsive" src="index_files/banner_13.png" title="" alt="" style="opacity: 1;"></div> </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next disabled"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div></div></div><script>
+        require(['jquery', 'mageplaza/core/owl.carousel'], function ($) {
+            $('#bannerslider-list-items-4-63cafc2727219').owlCarousel({"autoWidth":1,"autoHeight":1,"loop":0,"nav":1,"dots":0,"lazyLoad":0,"autoplay":1,"autoplayTimeout":5000,"items":1,"animateOut":"fadeOut"});
+        });</script></div>
+</div>
+<div style="background-color: #eff3f5; margin-top: 27px;">
+<div class="homepage-bar" style="margin: 0;">
+<div class="row">
+<div class="col-lg-4" style="text-align: center;"><img style="vertical-align: middle; margin: 0px 20px;" src="index_files/transferecia-bancaria.png" alt="Flores - Transferencia Bancaria" width="80px" height="80px">
+<div class="text-area">
+<h3>TRANSFERENCIA BANCARIA</h3>
+<p>Disponible para todas tus compras.</p>
+</div>
+</div>
+<div class="col-lg-4" style="text-align: center;"><img style="vertical-align: middle; margin: 0px 20px;" src="index_files/entregas-mismo-dia.png" alt="Flores - Transferencia Bancaria" width="80px" height="80px">
+<div class="text-area">
+<h3>ENTREGA HOY MISMO</h3>
+<p>Todos los productos para regalar Hoy.</p>
+</div>
+</div>
+<div class="col-lg-4" style="text-align: center;"><img style="vertical-align: middle; margin: 0px 20px;" src="index_files/pagos-seguros.png" alt="Flores - Transferencia Bancaria" width="80px" height="80px">
+<div class="text-area">
+<h3>PAGO SEGURO</h3>
+<p>Seguridad y control antifraude.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row" style="margin-top: 50px; margin-bottom: 20px;">
+<div class="col-sm-12" style="color: #465157;">
+<h1 style="font-size: 24px; font-weight: 500; text-align: center; margin-bottom: 20px; font-family: Oswald; color: #282d3b;">FLORERÍAS EN LIMA PERÚ</h1>
+<p style="font-size: 14px; text-align: center; line-height: 1.5;">Somos un Servicio Premium de <a style="color: #777 !important; text-decoration: none !important;" href="https://www.floreriasdf.net/">envío de Flores</a>
+ Frescas a cualquier parte de Lima, con entregas el mismo día del 
+Pedido. Ordene sus ramos, arreglos florales, rosas y regalos a través de
+ nuestra Página Web y descubra porque somos la mejor opción de servicio 
+de <a style="color: #777 !important; text-decoration: none !important;" href="https://www.florespuebla.net/">florería</a> en Lima, Perú. Delivery de Flores 100% Seguro. Regale <a style="color: #777 !important; text-decoration: none !important;" href="https://www.floreriasmonterrey.net/">Flores Frescas</a> recién cortadas y más duraderas. ¡Satisfacción Garantizada!</p>
+</div>
+</div>
+<div class="row" style="background-color: #fff; margin-top: 50px; margin-bottom: 20px;">
+<div class="col-sm-12">
+<h2 class="filterproduct-title" style="background: none;"><span class="content" style="background: none;"><strong>PRODUCTOS DESTACADOS</strong></span></h2>
+<div class="products wrapper grid columns5 products-grid   "> <ol class="filterproducts products list items product-items "> <li class="item product product-item nth-child-2np1 nth-child-3np1 nth-child-4np1 nth-child-5np1 nth-child-6np1 nth-child-7np1 nth-child-8np1"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/baby-love" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/b/a/babylove_1.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/baby-love">AGOTADO Baby Love</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="77" data-price-box="product-id-77"> <span class="price-container price-final_price tax weee"> <span id="product-price-77" data-price-amount="252.55" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 252.55</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/77/" method="post"><input type="hidden" name="product" value="77"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvNzcv"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/orquidea-morada" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/o/r/orquidea_morada_1.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/orquidea-morada">AGOTADO Orquídea Morada </a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="236" data-price-box="product-id-236"> <span class="price-container price-final_price tax weee"> <span id="product-price-236" data-price-amount="252.55" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 252.55</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/236/" method="post"><input type="hidden" name="product" value="236"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvMjM2Lw,,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2np1 nth-child-3n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/primavera" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/g/e/gerberas_y_claveles.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/primavera">Primavera </a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="36" data-price-box="product-id-36"> <span class="price-container price-final_price tax weee"> <span id="product-price-36" data-price-amount="218.11" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 218.11</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/36/" method="post"><input type="hidden" name="product" value="36"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvMzYv"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2n nth-child-3np1 nth-child-4n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/rojo%20y%20vino" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/w/h/whatsapp_image_2022-06-25_at_9.09.41_am.jpeg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/rojo%20y%20vino">Rojo y vino</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="275" data-price-box="product-id-275"> <span class="price-container price-final_price tax weee"> <span id="product-price-275" data-price-amount="459.26" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 459.26</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/rojo y vino?options=cart" method="post"><input type="hidden" name="product" value="275"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvcm9qbyB5IHZpbm8_b3B0aW9ucz1jYXJ0"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2np1 nth-child-4np1 nth-child-5n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/princesa" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/a/l/alegre_bienvenida_2.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/princesa">AGOTADO Princesa</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="76" data-price-box="product-id-76"> <span class="price-container price-final_price tax weee"> <span id="product-price-76" data-price-amount="252.55" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 252.55</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/76/" method="post"><input type="hidden" name="product" value="76"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvNzYv"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2n nth-child-3n nth-child-5np1 nth-child-6n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/alegre-cumplea-os" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/a/l/alegre_cumplea_os_2_1.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/alegre-cumplea-os">AGOTADO En tu día</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="72" data-price-box="product-id-72"> <span class="price-container price-final_price tax weee"> <span id="product-price-72" data-price-amount="252.55" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 252.55</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/72/" method="post"><input type="hidden" name="product" value="72"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvNzIv"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2np1 nth-child-3np1 nth-child-6np1 nth-child-7n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/pureza" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/p/u/pureza.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/pureza">Pureza</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="29" data-price-box="product-id-29"> <span class="price-container price-final_price tax weee"> <span id="product-price-29" data-price-amount="258.33" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 258.33</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/pureza?options=cart" method="post"><input type="hidden" name="product" value="29"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvcHVyZXphP29wdGlvbnM9Y2FydA,,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2n nth-child-4n nth-child-7np1 nth-child-8n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/jardin-primaveral,%20florero%20con%20rosas%20surtidas;" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/g/e/gerberas_y_rosas_2.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/jardin-primaveral,%20florero%20con%20rosas%20surtidas;">Jardin Primaveral</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="228" data-price-box="product-id-228"> <span class="price-container price-final_price tax weee"> <span id="product-price-228" data-price-amount="256.38" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 256.38</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/jardin-primaveral, florero con rosas surtidas;?options=cart" method="post"><input type="hidden" name="product" value="228"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvamFyZGluLXByaW1hdmVyYWwsIGZsb3Jlcm8gY29uIHJvc2FzIHN1cnRpZGFzOz9vcHRpb25zPWNhcnQ,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2np1 nth-child-3n nth-child-4np1 nth-child-8np1"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/orquidea-blanca" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/o/r/oruidea_blanca.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/orquidea-blanca">AGOTADO Orquídea Blanca</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="237" data-price-box="product-id-237"> <span class="price-container price-final_price tax weee"> <span id="product-price-237" data-price-amount="252.55" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 252.55</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/237/" method="post"><input type="hidden" name="product" value="237"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvMjM3Lw,,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2n nth-child-3np1 nth-child-5n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/mix-de-color-standar" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/f/i/fiesta_color_x_18-24_1.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/mix-de-color-standar">Fiesta Color </a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="222" data-price-box="product-id-222"> <span class="price-container price-final_price tax weee"> <span id="product-price-222" data-price-amount="258.33" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 258.33</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/mix-de-color-standar?options=cart" method="post"><input type="hidden" name="product" value="222"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvbWl4LWRlLWNvbG9yLXN0YW5kYXI_b3B0aW9ucz1jYXJ0"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2np1 nth-child-5np1"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/love-you" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/a/r/arreglomadre.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/love-you">AGOTADO Love You</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="99" data-price-box="product-id-99"> <span class="price-container price-final_price tax weee"> <span id="product-price-99" data-price-amount="279.34" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 279.34</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/99/" method="post"><input type="hidden" name="product" value="99"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvOTkv"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2n nth-child-3n nth-child-4n nth-child-6n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/magico-premium" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/f/l/florero_por_70_rosas.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/magico-premium">Magico Premium</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="235" data-price-box="product-id-235"> <span class="price-container price-final_price tax weee"> <span id="product-price-235" data-price-amount="402.08" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 402.08</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/magico-premium?options=cart" method="post"><input type="hidden" name="product" value="235"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvbWFnaWNvLXByZW1pdW0_b3B0aW9ucz1jYXJ0"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2np1 nth-child-3np1 nth-child-4np1 nth-child-6np1"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/mix-de-colores-x-36-o-50-premium" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/f/i/fiest_de_colores_x_36_y_50_2.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/mix-de-colores-x-36-o-50-premium">Mix de Colores Premium</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="225" data-price-box="product-id-225"> <span class="price-container price-final_price tax weee"> <span id="product-price-225" data-price-amount="402.08" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 402.08</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/mix-de-colores-x-36-o-50-premium?options=cart" method="post"><input type="hidden" name="product" value="225"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvbWl4LWRlLWNvbG9yZXMteC0zNi1vLTUwLXByZW1pdW0_b3B0aW9ucz1jYXJ0"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2n nth-child-7n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/te-amo" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/n/a/napoles.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/te-amo">Te Amo </a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="229" data-price-box="product-id-229"> <span class="price-container price-final_price tax weee"> <span id="product-price-229" data-price-amount="597" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 597.00</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/te-amo?options=cart" method="post"><input type="hidden" name="product" value="229"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvdGUtYW1vP29wdGlvbnM9Y2FydA,,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2np1 nth-child-3n nth-child-5n nth-child-7np1"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/12,,18,24,ra-rosas-docena-amarillo" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/b/o/bouquet_amaraillo.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/12,,18,24,ra-rosas-docena-amarillo">Rosas Docena Amarillo </a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="231" data-price-box="product-id-231"> <span class="price-container price-final_price tax weee"> <span id="product-price-231" data-price-amount="187.49" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 187.49</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/12,,18,24,ra-rosas-docena-amarillo?options=cart" method="post"><input type="hidden" name="product" value="231"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvMTIsLDE4LDI0LHJhLXJvc2FzLWRvY2VuYS1hbWFyaWxsbz9vcHRpb25zPWNhcnQ,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2n nth-child-3np1 nth-child-4n nth-child-5np1 nth-child-8n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/rosas-rojas-docena_bouq" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/r/o/rosas-rojas-docena.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/rosas-rojas-docena_bouq">Rosas Rojas Pasión</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="203" data-price-box="product-id-203"> <span class="price-container price-final_price tax weee"> <span id="product-price-203" data-price-amount="187.49" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 187.49</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/rosas-rojas-docena_bouq?options=cart" method="post"><input type="hidden" name="product" value="203"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvcm9zYXMtcm9qYXMtZG9jZW5hX2JvdXE_b3B0aW9ucz1jYXJ0"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2np1 nth-child-4np1 nth-child-8np1"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/amor-amor" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/r/o/rojo_amor.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/amor-amor">Amor Amor </a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="4" data-price-box="product-id-4"> <span class="price-container price-final_price tax weee"> <span id="product-price-4" data-price-amount="248.73" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 248.73</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/amor-amor?options=cart" method="post"><input type="hidden" name="product" value="4"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvYW1vci1hbW9yP29wdGlvbnM9Y2FydA,,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2n nth-child-3n nth-child-6n"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/canasta-con-lirios" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/l/i/lirios_y_rosas.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/canasta-con-lirios">AGOTADO Canasta con lirios</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="8" data-price-box="product-id-8"> <span class="price-container price-final_price tax weee"> <span id="product-price-8" data-price-amount="218.11" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 218.11</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/8/" method="post"><input type="hidden" name="product" value="8"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvOC8,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </li><li class="item product product-item nth-child-2np1 nth-child-3np1 nth-child-6np1"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/canasta-tropical" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/c/a/canasta_lirios_rosas.jpg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAPT09P///yH5BAEAAAEALAAAAAABAAEAAAICRAEAOw==" style="height: 242px;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/canasta-tropical">AGOTADO Canasta tropical</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="18" data-price-box="product-id-18"> <span class="price-container price-final_price tax weee"> <span id="product-price-18" data-price-amount="202.8" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 202.80</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/18/" method="post"><input type="hidden" name="product" value="18"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvMTgv"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div></li> </ol></div> <script type="text/javascript">
+    require([
+        'jquery'        
+    ], function ($) {
+    
+        var _second = 1000;
+        var _minute = _second * 60;
+        var _hour = _minute * 60;
+        var _day = _hour * 24;
+        var timer;
+
+        
+        var date = new Date('2023-01-20 20:40:07');
+        var l_date = new Date();
+        var offset_date = l_date - date;
+
+        function showRemaining() 
+        {
+            $(".sw-dailydeal-wrapper").each(function(){
+                var unique_id = $(this).attr("data-unique-id");
+                
+                var cid='countdown_'+unique_id;
+                var daysid='countdown_days_'+unique_id;
+                var hoursid='countdown_hours_'+unique_id;
+                var minutesid='countdown_minutes_'+unique_id;
+                var secondsid='countdown_seconds_'+unique_id;
+
+                var startdateid='fromdate_'+unique_id;
+                var id='todate_'+unique_id;
+
+                var enddate = new Date($('#'+id).val());
+                var dealstartdate=new Date($('#'+startdateid).val());
+
+                var currentdate=new Date();
+
+                
+                var distance = enddate - (currentdate - offset_date);
+
+                $('.sw-dailydeal-wrapper').show();
+
+                if (distance < 0) {
+                   
+                    $('#expired_'+unique_id).html("<span style='font-size:25px; color:#000;'>EXPIRED!<span>");
+
+                } else if(dealstartdate > currentdate) {
+                   $('.countdowncontainer_'+unique_id).hide();
+                   var msg="<span style='font-size:15px; color:#000;'> Coming Soon..<br>Deal Start at:<br>"+$('#'+startdateid).val()+"<span>";
+                   $('#expired_'+unique_id).html(msg);
+                } else {
+                    var days = Math.floor(distance / _day);
+                    var hours = Math.floor((distance % _day) / _hour);
+                    var minutes = Math.floor((distance % _hour) / _minute);
+                    var seconds = Math.floor((distance % _minute) / _second);
+
+                    if(hours < 10)
+                        hours = "0" + hours;
+                    if(minutes < 10)
+                        minutes = "0" + minutes;
+                    if(seconds < 10)
+                        seconds = "0" + seconds;
+                    $('.countdowncontainer_'+unique_id).show();
+                    $('#'+daysid).html(days);
+                    $('#'+hoursid).html(hours);
+                    $('#'+minutesid).html(minutes);
+                    $('#'+secondsid).html(seconds);
+                }
+            });
+        }
+        
+        
+        timer = setInterval(function() 
+        {
+            showRemaining();
+        }, 1000); 
+    });</script> <script type="text/javascript">
+        require([
+            'jquery'
+        ], function ($) {
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(2n)').addClass('nth-child-2n');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(2n+1)').addClass('nth-child-2np1');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(3n)').addClass('nth-child-3n');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(3n+1)').addClass('nth-child-3np1');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(4n)').addClass('nth-child-4n');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(4n+1)').addClass('nth-child-4np1');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(5n)').addClass('nth-child-5n');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(5n+1)').addClass('nth-child-5np1');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(6n)').addClass('nth-child-6n');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(6n+1)').addClass('nth-child-6np1');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(7n)').addClass('nth-child-7n');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(7n+1)').addClass('nth-child-7np1');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(8n)').addClass('nth-child-8n');
+            $('.products.grid .product-items.filterproducts li.product-item:nth-child(8n+1)').addClass('nth-child-8np1');
+        });</script> </div>
+</div>
+<div class="row" style="margin-top: 11px; margin-bottom: 11px;">
+<div class="col-sm-12"></div>
+</div>
+<div class="row" style="background-color: #fff; margin-top: 50px; margin-bottom: 20px;">
+<div class="col-lg-12">
+<h2 class="filterproduct-title" style="background: none;"><span class="content" style="background: none;"><strong>NUEVOS PRODUCTOS</strong></span></h2>
+<div id="latest_product" class=""> <div class="products wrapper grid products-grid   "> <div class="filterproducts products list items product-items owl-carousel "> <div class="item product product-item"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/rojo%20y%20vino" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload porto-lazyload-loaded" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/w/h/whatsapp_image_2022-06-25_at_9.09.41_am.jpeg" alt="" src="index_files/whatsapp_image_2022-06-25_at_9.09.41_am.jpeg" style="display: block;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/rojo%20y%20vino">Rojo y vino</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="275" data-price-box="product-id-275"> <span class="price-container price-final_price tax weee"> <span id="product-price-275" data-price-amount="459.26" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 459.26</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/rojo y vino?options=cart" method="post"><input type="hidden" name="product" value="275"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvcm9qbyB5IHZpbm8_b3B0aW9ucz1jYXJ0"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </div><div class="item product product-item"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/orquidea-blanca" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload porto-lazyload-loaded" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/o/r/oruidea_blanca.jpg" alt="" src="index_files/oruidea_blanca.jpg" style="display: block;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/orquidea-blanca">AGOTADO Orquídea Blanca</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="237" data-price-box="product-id-237"> <span class="price-container price-final_price tax weee"> <span id="product-price-237" data-price-amount="252.55" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 252.55</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/237/" method="post"><input type="hidden" name="product" value="237"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvMjM3Lw,,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </div><div class="item product product-item"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/orquidea-morada" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload porto-lazyload-loaded" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/o/r/orquidea_morada_1.jpg" alt="" src="index_files/orquidea_morada_1.jpg" style="display: block;" width="300" height="300">  </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/orquidea-morada">AGOTADO Orquídea Morada </a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="236" data-price-box="product-id-236"> <span class="price-container price-final_price tax weee"> <span id="product-price-236" data-price-amount="252.55" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 252.55</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQv/product/236/" method="post"><input type="hidden" name="product" value="236"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OTNkM2N1Wm14dmNtVnlhV0Z6YkdsdFlTNXVaWFF2L3Byb2R1Y3QvMjM2Lw,,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </div><div class="item product product-item"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/magico-premium" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload porto-lazyload-loaded" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/f/l/florero_por_70_rosas.jpg" alt="" src="index_files/florero_por_70_rosas.jpg" style="display: block;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/magico-premium">Magico Premium</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="235" data-price-box="product-id-235"> <span class="price-container price-final_price tax weee"> <span id="product-price-235" data-price-amount="402.08" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 402.08</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/magico-premium?options=cart" method="post"><input type="hidden" name="product" value="235"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvbWFnaWNvLXByZW1pdW0_b3B0aW9ucz1jYXJ0"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </div><div class="item product product-item"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/12,,18,24,ra-rosas-docena-amarillo" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload porto-lazyload-loaded" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/b/o/bouquet_amaraillo.jpg" alt="" src="index_files/bouquet_amaraillo.jpg" style="display: block;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/12,,18,24,ra-rosas-docena-amarillo">Rosas Docena Amarillo </a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="231" data-price-box="product-id-231"> <span class="price-container price-final_price tax weee"> <span id="product-price-231" data-price-amount="187.49" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 187.49</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/12,,18,24,ra-rosas-docena-amarillo?options=cart" method="post"><input type="hidden" name="product" value="231"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvMTIsLDE4LDI0LHJhLXJvc2FzLWRvY2VuYS1hbWFyaWxsbz9vcHRpb25zPWNhcnQ,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </div><div class="item product product-item"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/te-amo" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload porto-lazyload-loaded" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/n/a/napoles.jpg" alt="" src="index_files/napoles.jpg" style="display: block;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/te-amo">Te Amo </a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="229" data-price-box="product-id-229"> <span class="price-container price-final_price tax weee"> <span id="product-price-229" data-price-amount="597" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 597.00</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/te-amo?options=cart" method="post"><input type="hidden" name="product" value="229"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvdGUtYW1vP29wdGlvbnM9Y2FydA,,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </div><div class="item product product-item"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/jardin-primaveral,%20florero%20con%20rosas%20surtidas;" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload porto-lazyload-loaded" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/g/e/gerberas_y_rosas_2.jpg" alt="" src="index_files/gerberas_y_rosas_2.jpg" style="display: block;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/jardin-primaveral,%20florero%20con%20rosas%20surtidas;">Jardin Primaveral</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="228" data-price-box="product-id-228"> <span class="price-container price-final_price tax weee"> <span id="product-price-228" data-price-amount="256.38" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 256.38</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/jardin-primaveral, florero con rosas surtidas;?options=cart" method="post"><input type="hidden" name="product" value="228"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvamFyZGluLXByaW1hdmVyYWwsIGZsb3Jlcm8gY29uIHJvc2FzIHN1cnRpZGFzOz9vcHRpb25zPWNhcnQ,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </div><div class="item product product-item"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/toque**de-amor-x-36-o-50-premium" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload porto-lazyload-loaded" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/r/o/rosas_rojas_x_36_y_50_2.jpg" alt="" src="index_files/rosas_rojas_x_36_y_50_2.jpg" style="display: block;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/toque**de-amor-x-36-o-50-premium">Toque de Amor </a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="226" data-price-box="product-id-226"> <span class="price-container price-final_price tax weee"> <span id="product-price-226" data-price-amount="402.08" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 402.08</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/toque**de-amor-x-36-o-50-premium?options=cart" method="post"><input type="hidden" name="product" value="226"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvdG9xdWUqKmRlLWFtb3IteC0zNi1vLTUwLXByZW1pdW0_b3B0aW9ucz1jYXJ0"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </div><div class="item product product-item"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/mix-de-colores-x-36-o-50-premium" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload porto-lazyload-loaded" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/f/i/fiest_de_colores_x_36_y_50_2.jpg" alt="" src="index_files/fiest_de_colores_x_36_y_50_2.jpg" style="display: block;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/mix-de-colores-x-36-o-50-premium">Mix de Colores Premium</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="225" data-price-box="product-id-225"> <span class="price-container price-final_price tax weee"> <span id="product-price-225" data-price-amount="402.08" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 402.08</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/mix-de-colores-x-36-o-50-premium?options=cart" method="post"><input type="hidden" name="product" value="225"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvbWl4LWRlLWNvbG9yZXMteC0zNi1vLTUwLXByZW1pdW0_b3B0aW9ucz1jYXJ0"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div> </div><div class="item product product-item"> <div class="product-item-info type1" data-container="product-grid"> <div class="product photo product-item-photo"><a href="https://www.floreriaslima.net/toque-de-amor-standar" tabindex="-1"> <img class="product-image-photo default_image porto-lazyload porto-lazyload-loaded" data-src="https://www.floreriaslima.net/pub/media/catalog/product/cache/98e3424a5d98c87d4b9d98ba579d860e/f/l/florero_rojo_x_18_o_x_24_2.jpg" alt="" src="index_files/florero_rojo_x_18_o_x_24_2.jpg" style="display: block;" width="300" height="300"> </a>  </div><div class="product details product-item-details"> <strong class="product name product-item-name"><a class="product-item-link" href="https://www.floreriaslima.net/toque-de-amor-standar">Toque de Amor Standar</a></strong> <div class="price-box price-final_price" data-role="priceBox" data-product-id="223" data-price-box="product-id-223"> <span class="price-container price-final_price tax weee"> <span id="product-price-223" data-price-amount="258.33" data-price-type="finalPrice" class="price-wrapper "><span class="price">SOL$ 258.33</span></span> </span> </div> <div class="product-item-inner"><div class="product actions product-item-actions"> <div class="actions-primary"> <form data-role="tocart-form" action="https://www.floreriaslima.net/toque-de-amor-standar?options=cart" method="post"><input type="hidden" name="product" value="223"><input type="hidden" name="uenc" value="aHR0cHM6Ly93d3cuZmxvcmVyaWFzbGltYS5uZXQvdG9xdWUtZGUtYW1vci1zdGFuZGFyP29wdGlvbnM9Y2FydA,,"> <input name="form_key" type="hidden" value="29GLTvwpAN2rr2dE"> <button type="submit" title="Agregar a la Cesta" class="action tocart primary"><span>Agregar a la Cesta</span></button></form></div> </div></div></div></div></div> </div></div> </div>
+</div>
+</div>
+<div class="row" style="background-color: #fff; margin-top: 50px; margin-bottom: 20px;">
+<div class="col-lg-12">
+<h2 class="filterproduct-title" style="background: none;"><span class="content" style="background: none;"><strong>OFERTAS</strong></span></h2>
+<div id="sales_product" class=""> <div class="message info empty"><div>No podemos encontrar productos que coincida con la selección.</div></div></div>
+</div>
+</div>
+<div class="row" style="margin-top: 50px; margin-bottom: 20px; color: #465157;">
+<div class="col-sm-12">
+<h1 style="font-size: 18px; margin-bottom: 15px; font-weight: 500; font-family: Oswald; color: #282d3b;">Florerías en Lima Perú ➤ Flores a Domicilio, Envió de Arreglos Florales y Rosas Frescas al Mejor Precio!</h1>
+<p style="font-size: 14px; line-height: 1.5;">Las flores, <a style="color: #777 !important; text-decoration: none !important;" href="https://www.floreriasdf.net/categorias/arreglos-florales">arreglos florales</a> y los <a style="color: #777 !important; text-decoration: none !important;" href="https://www.floreriasdf.net/rosas-docena-colores">ramos de rosas</a>,
+ en cualquier instante, se convierten en un detalle inolvidable y 
+económico: Unos cuantos soles serán suficientes para expresarte, incluso
+ si no estás cerca de Lima. Basta una buena conexión a internet, elegir 
+nuestras opciones según tu criterio y dar clic en la compra ¡Los envíos 
+llegarán más pronto de lo que crees!</p>
+<p style="font-size: 14px; line-height: 1.5;">Como una de las <a style="color: #777 !important; text-decoration: none !important;" href="https://www.florespuebla.net/" rel="nofollow">Florerías en Puebla</a>
+ de mayor reconocimiento en el sector contamos con un servicio envío 
+fácil, rápido y seguro. Delivery 100% Seguro desde la comodidad de tu 
+casa u oficina, cualquier día de la semana. Nuestra <a href="https://www.floristeriaspanama.com/">Floristería</a>
+ busca siempre sorprender con elegantes y hermosos ramos y arreglos 
+florales para todo tipo de celebraciones. Queremos ver Peruanos 
+contentos celebrando sus fechas especiales con nuestros bellos detalles y
+ coloridas y frescas flores.</p>
+<p style="font-size: 14px; line-height: 1.5;">Recibir una nueva mañana 
+con nuestros regalos alegrará el día de esa persona tan querida que 
+habita la 'Ciudad Jardín'. En nuestras <a style="color: #777 !important; text-decoration: none !important;" href="https://www.floreriasmonterrey.net/">florerías</a>
+ online te tenemos innumerables regalos para enviar a domicilio: Caja de
+ Rosas y flores en canastas o ramos; combos de aromas y sabores 
+acompañados con osos de felpa y otros peluches; desayunos especiales 
+para celebrar cumpleaños.</p>
+<p style="font-size: 14px; line-height: 1.5;">Sorpréndela o sorpréndelo 
+en su cumpleaños ―quién dice que los hombres no gustan de recibir 
+regalos a domicilio— con nuestra gran variedad de flores, ramos, rosas o
+ arreglos florales. De entre nuestros arreglos florales encuentra: 
+Anturios, Rosas, Flores exóticas, Claveles, Girasoles, Tulipanes, 
+Gerberas, Orquídeas, Pompones, etc. Tenemos las <a href="https://www.floreriasguadalajara.net/">Flores</a>
+ ideales para transmitir hermosos sentimientos: Amor, romance, 
+enamoramiento, amistad, cariño, momentos especiales, felicitaciones, 
+celebraciones, aniversario de novios, matrimonio, entre otros.</p>
+<p style="font-size: 14px; line-height: 1.5;">Los Detalles Enamoran! <span style="color: #008000;">➤</span>Delivery
+ y envíos de arreglos de flores de la mejor calidad para todo Lima y 
+Perú. Hoy Puedes comprar online desde cualquier parte del mundo y enviar
+ tus regalos a la Persona que amas de forma rápida y segura. 
+SORPRENDELA!!</p>
+<p style="font-size: 14px; line-height: 1.5;">Para enviar condolencias y
+ decir “aquí estoy contigo”, en esas circunstancias fúnebres, a pesar de
+ la distancia, elige nuestros arreglos florales y coronas fúnebres. 
+Estas coronas para defunciones están compuestas con rosas y lirios de 
+impecable belleza; su blanco color transmite paz y espiritualidad en un 
+difícil momento como son los Sepelios.</p>
+<p style="font-size: 14px; line-height: 1.5;"><strong>¿Dónde entregamos? O ¿Where We Deliver?</strong></p>
+<p style="font-size: 14px; line-height: 1.5;">Delivery de flores en 
+Lima. Atendemos todas las zonas y sectores de Lima: Norte, Sur, Oriente,
+ Occidente, Centro, Cercado de Lima, Pueblo libre, Miraflores, San 
+miguel, Los Olivos, Jesús María, San Isidro, Surco Lima, Barranco, entre
+ otros.</p>
+<p style="font-size: 14px; line-height: 1.5;"><strong>Hacemos Envíos de Flores a Clínicas y Hospitales.</strong></p>
+<p style="font-size: 14px; line-height: 1.5;">Nuestra Agencia de Flores en Lima realiza domicilios a los principales Hospitales y clínicas de esta capital:</p>
+<p style="font-size: 14px; line-height: 1.5;">Instituto Nacional Materno
+ Perinatal, Hospital Regional Hermilio Valdizán, Instituto Nacional de 
+Enfermedades Neoplásicas (inen), Hospital Alberto Leopoldo Barton 
+Thompson, Hospital Nacional Ramiro Prialé Prialé, Hospital Manuel Núñez 
+Butrón, Clínica Virgen de Guadalupe, Hospital Nacional Guillermo 
+Almenara Irigoyen, Inverconsult (Clínica Provicencia, Clínica 
+Internacional, entre otros.</p>
+<p style="font-size: 14px; line-height: 1.5;"><strong>Envió de Flores a Cementerios Locales y Funerarias</strong></p>
+<p style="font-size: 14px; line-height: 1.5;">De la Misma forma enviamos
+ flores VIP de Condolencias a las Siguientes Funerarias de Lima Perú: 
+Funeraria San José, Campo Fe Funeraria, Funeraria Arcángel E.I.R.L., 
+Funeraria San Luis, Finisterre, Agencia Funeraria San Pedro, Funcoesa, 
+Fábrica de Ataúdes y Capillas Acuña S.R.L., Funeraria Cristiana Soriano,
+ Funeraria Temoche, Agencia Funeraria Benavides, Funeraria El Edén, 
+Funeraria San Martín, Agustín Merino y Funeraria Jardines de La Paz, 
+entre otras.</p>
+<p style="font-size: 14px; line-height: 1.5;">Para envío de Flores para Defunción en Perú, Solo debes llamar a nuestros teléfonos: +51(1)6419215</p>
+<p style="font-size: 14px; line-height: 1.5;">Delivery de los envíos 
+100% garantizados. Compre en línea arreglos florales, ramos de flores, 
+regalos y mucho más para ocasiones y fechas especiales como: Cumpleaños,
+ día de Madre, día del Padre, San Valentín, Navidad, Aniversarios, 
+Grados, Despedidas, Nacimientos, Condolencias o cualquier otra ocasión.</p>
+<p style="font-size: 14px; line-height: 1.5;">Envía fácil, seguro y 
+rápido a todo Lima Perú. Somos Floristerías con Delivery 100% Seguro 
+desde la comodidad de tu casa u oficina. Si estas fuera de la capital, o
+ incluso de Perú, igual, con una sencilla conexión de internet, puedes 
+acceder a nuestro sitio online y programar los envíos de nuestros 
+productos. Disfrutarás un carrito de compras lleno de regalos para 
+compartir, y bien económico. <br><br><strong>Florerías Lima</strong> <span style="color: #008000;">➤</span> Más Frescas y Coloridas que Nunca! <br>Compra Seguro. Satisfacción Garantizada!</p>
+</div>
+</div></div></div></main><footer class="page-footer"> <div class="footer"> <div class="footer-top"><div class="container"><div class="row"><div class="col-lg-12"><div class="custom-block"><div class="footer-top-inner">
+<div class="row">
+<div class="col-md-5">
+<div class="block" style="margin-bottom:0;padding: 23px 0;">
+<div class="block-title"><span>Registrate hoy, y recibe <b style="color:#e73d79;text-decoration: underline;font-weight:400;">las mejores promociones</b></span></div>
+</div>
+</div>
+<div class="col-md-7" style="text-align:right;margin-top:15px;">
+<div class="block-title" style="display:inline-block;margin-top:15px;margin-right:30px;"><strong><span>Registrate al newsletter</span></strong></div>
+<div class="block newsletter"><div class="content"><form class="form subscribe" novalidate="novalidate" action="https://www.floreriaslima.net/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail"><div class="field newsletter"><label class="label" for="footer_newsletter"><span>Inscríbase a nuestro boletín de noticias:</span></label> <div class="control"><input name="email" type="email" id="footer_newsletter" data-validate="{required:true, 'validate-email':true}" placeholder="Email para recibir notificaciones del pedido"></div></div><div class="actions"><button class="action subscribe primary" title="Suscribirse" type="submit"><span>Suscribirse</span></button></div></form></div></div>
+</div>
+</div>
+</div> </div></div></div></div></div> <div class="footer-middle"><div class="container"> <div class="row"><div class="col-lg-3"><span class="footer-logo gray-filter_" style="display: block; text-align: left;"><img src="index_files/logo-florerias-lima.png" alt="Florerias Lima"></span></div><div class="col-lg-3"><div class="block">
+<div class="block-title"><a href="https://www.floreriaslima.net/"><strong>Florerías Lima</strong></a></div>
+<div class="block-content">
+<p style="line-height: 1.5;">Somos una tienda de Regalos Online con 
+envíos a domicilio en cualquier lugar de la capital. Entregamos Rosas, 
+Garberas, Orquídeas, Girasoles, Arreglos Florales y Frutales, Lirios, 
+Ramos y Regalos para todo tipo de ocasiones. Ahora desde cualquier 
+ciudad del mundo podrás despachar Flores, plantas y regalos a Tus seres 
+queridos en Lima, Perú. Compra rápida y Segura‎! Entrega 100% confiable.</p>
+</div>
+</div></div><div class="col-lg-3"><div class="block">
+<div class="block-title"><strong>Servicio al cliente</strong></div>
+<div class="block-content">
+<ul class="contact-info">
+<li><i class="porto-icon-location">&nbsp;</i><p><b>Dirección Principal:</b><br>Av. Las Artes Norte 288, San Borja Local 2B, Lima, Perú</p></li>
+<li><i class="porto-icon-phone">&nbsp;</i><p><b>Teléfonos:</b><br>6419215<br><br><a href="callto:asesor1@floresamerica.com" style="text-decoration: none;"><span style="background-color: #15ace5; color: #ffffff; padding: 6px 10px;"><i class="fab fa-skype"></i>&nbsp;&nbsp;Flores America</span></a></p></li>
+<li><i class="porto-icon-mail">&nbsp;</i><p><b>Email:</b><br><a href="https://www.floreriaslima.net/lima@floresamerica.com">lima@floresamerica.com</a></p></li>
+<li><i class="porto-icon-clock">&nbsp;</i><p><b>Horario:</b><br>Lun - Sab / 9:00AM - 6:00PM</p></li>
+</ul>
+</div>
+</div>
+</div><div class="col-lg-3"><div class="block">
+<div class="block-title"><strong>Links de interés</strong></div>
+<div class="block-content">
+<ul class="links">
+<li><em class="porto-icon-right-dir theme-color">&nbsp;</em><a href="https://www.floreriaslima.net/hoy-mismo/" title="Hoy mismo">Hoy mismo</a></li>
+<li><em class="porto-icon-right-dir theme-color">&nbsp;</em><a href="https://www.floreriaslima.net/cuidado-de-las-flores/" title="Cuidado de las flores">Cuidado de las flores</a></li>
+<li><em class="porto-icon-right-dir theme-color">&nbsp;</em><a href="https://www.floreriaslima.net/preguntas-frecuentes/" title="Preguntas frecuentes">Preguntas frecuentes</a></li>
+<li><em class="porto-icon-right-dir theme-color">&nbsp;</em><a href="https://www.floreriaslima.net/flores/" title="Flores">Flores a domicilio</a></li>
+<li><em class="porto-icon-right-dir theme-color">&nbsp;</em><a href="https://www.floreriaslima.net/terminos-y-condiciones/" title="Términos y condiciones">Términos y condiciones</a></li>
+</ul>
+</div>
+</div></div></div></div></div> <div class="footer-bottom"><div class="container"> <div class="custom-block f-right"><div class="block-bottom">
+<div class="custom-block" style="float:left;margin-right:86px;"><img src="index_files/payment-icons-bottom.png" style="max-width: 350px;" alt="Payment Icons"></div>
+<div class="social-icons" style="float:right;">
+<a href="https://www.facebook.com/floreriasenlima/" title="Facebook" target="_blank" style="background-color: #3b5998;"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+<a href="https://www.instagram.com/limaflorerias/" title="Instagram" target="_blank" style="background-color: #833AB4;"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+<a href="https://floreriaslima.blogspot.com.co/" title="Linkedin" target="_blank" style="background-color: #FF5722;"><i class="fas fa-rss" aria-hidden="true"></i></a>
+</div>
+</div></div> <address><p style="line-height: 1.5;">© Copyright 2021 Flores América. Todos los derechos reservados.</p></address></div></div></div><a href="javascript:void(0)" id="totop"><em class="porto-icon-up-open"></em></a></footer>  <script type="text/javascript"> var $_Tawk_API={},$_Tawk_LoadStart=new Date();
+(function(){
+	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+	s1.async=true;
+	s1.src='https://embed.tawk.to/5f93465c194f2c4cbeb88834/default';
+	s1.charset='UTF-8';
+	s1.setAttribute('crossorigin','*');
+	s0.parentNode.insertBefore(s1,s0);
+})();</script>  </div><div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 2000px; z-index: 9999;"></div><script async="" charset="UTF-8" src="index_files/es.js"></script><div class="modals-wrapper"><aside role="dialog" class="modal-popup popup-authentication
+               modal-slide
+               _inner-scroll" aria-describedby="modal-content-16" data-role="modal" data-type="popup" tabindex="0">
+<div data-role="focusable-start" tabindex="0"></div>
+<div class="modal-inner-wrap" data-role="focusable-scope">
+<header class="modal-header">
+
+<button class="action-close" data-role="closeBtn" type="button">
+<span>Close</span>
+</button>
+</header>
+<div id="modal-content-16" class="modal-content" data-role="content"><div class="block-authentication" data-bind="afterRender: setModalElement, blockLoader: isLoading" style="">
+<div class="block block-new-customer" data-bind="attr: {'data-label': $t('or')}" data-label="o">
+<div class="block-title">
+<strong id="block-new-customer-heading" role="heading" aria-level="2" data-bind="i18n: 'Checkout as a new customer'">Pagar como nuevo cliente</strong>
+</div>
+<div class="block-content" aria-labelledby="block-new-customer-heading">
+<p data-bind="i18n: 'Creating an account has many benefits:'">Crear una cuenta tiene muchos beneficios:</p>
+<ul>
+<li data-bind="i18n: 'See order and shipping status'">Ver estado de orden y envío</li>
+<li data-bind="i18n: 'Track order history'">Rastrear Historial de Orden</li>
+<li data-bind="i18n: 'Check out faster'">Comprar más rápidamente</li>
+</ul>
+<div class="actions-toolbar">
+<div class="primary">
+<a class="action action-register primary" data-bind="attr: {href: registerUrl}" href="https://www.floreriaslima.net/customer/account/create/">
+<span data-bind="i18n: 'Create an Account'">Crear una cuenta</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="block block-customer-login" data-bind="attr: {'data-label': $t('or')}" data-label="o">
+<div class="block-title">
+<strong id="block-customer-login-heading" role="heading" aria-level="2" data-bind="i18n: 'Checkout using your account'">Pagar usando su cuenta</strong>
+</div>
+<!-- ko foreach: getRegion('messages') -->
+<!-- ko template: getTemplate() -->
+<div data-role="checkout-messages" class="messages" data-bind="visible: isVisible(), click: removeAll">
+<!-- ko foreach: messageContainer.getErrorMessages() --><!--/ko-->
+<!-- ko foreach: messageContainer.getSuccessMessages() --><!--/ko-->
+</div>
+<!-- /ko -->
+<!--/ko-->
+<!-- ko foreach: getRegion('before') --><!-- /ko -->
+<div class="block-content" aria-labelledby="block-customer-login-heading">
+<form class="form form-login" method="post" data-bind="event: {submit: login }" id="login-form">
+<div class="fieldset login" data-bind="attr: {'data-hasrequired': $t('* Required Fields')}" data-hasrequired="* Campos obligatorios">
+<div class="field email required">
+<label class="label" for="customer-email"><span data-bind="i18n: 'Email Address'">Email para recibir notificaciones del pedido</span></label>
+<div class="control">
+<input name="username" id="customer-email" type="email" class="input-text" data-mage-init="{&quot;mage/trim-input&quot;:{}}" data-bind="attr: {autocomplete: autocomplete}" data-validate="{required:true, 'validate-email':true}" autocomplete="off">
+</div>
+</div>
+<div class="field password required">
+<label for="pass" class="label"><span data-bind="i18n: 'Password'">Contraseña</span></label>
+<div class="control">
+<input name="password" type="password" class="input-text" id="pass" data-bind="attr: {autocomplete: autocomplete}" data-validate="{required:true}" autocomplete="off">
+</div>
+</div>
+<!-- ko foreach: getRegion('additional-login-form-fields') -->
+<!-- ko template: getTemplate() -->
+<input name="captcha_form_id" type="hidden" data-bind="value: formId,  attr: {'data-scope': dataScope}" value="user_login" data-scope="">
+<!-- ko if: (isRequired() && getIsVisible())--><!-- /ko -->
+<!-- /ko -->
+
+<!-- ko template: getTemplate() -->
+<!-- ko if: (getIsVisible()) -->
+<div data-bind="{
+    attr: {
+        'id': getReCaptchaId() + '-wrapper'
+    },
+    'afterRender': renderReCaptcha()
+}" id="msp-recaptcha-popup-login-wrapper">
+<div class="g-recaptcha" id="msp-recaptcha-popup-login"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="index_files/anchor.htm" role="presentation" name="a-9g5fesn4eduy" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" width="304" height="78" frameborder="0"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+<!-- ko if: (getIsInvisibleRecaptcha()) -->
+<div class="field">
+<div class="control">
+<input type="checkbox" value="" class="required-captcha checkbox" name="recaptcha-validate-" data-validate="{required:true}">
+</div>
+</div>
+<!-- /ko -->
+</div>
+<!-- /ko -->
+<!-- /ko -->
+<!-- /ko -->
+<div class="actions-toolbar">
+<input name="context" type="hidden" value="checkout">
+<div class="primary">
+<button type="submit" class="action action-login secondary" name="send" id="send2">
+<span data-bind="i18n: 'Sign In'">Iniciar sesión</span>
+</button>
+</div>
+<div class="secondary">
+<a class="action" data-bind="attr: {href: forgotPasswordUrl}" href="https://www.floreriaslima.net/customer/account/forgotpassword/">
+<span data-bind="i18n: 'Forgot Your Password?'">¿Olvidó su contraseña?</span>
+</a>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div></div>
+
+</div>
+<div data-role="focusable-end" tabindex="0"></div>
+</aside></div><div id="y06uaeiu3vps1674327740150" class="widget-visible"><iframe src="index_files/a.htm" scrolling="no" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:20px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:60px !important; min-width:64px !important; max-height:60px !important; max-width:64px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:64px !important; height:60px !important; display:block !important; z-index:1000001 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="judlcl5oec5g1674327740336" class="" title="chat widget" width="64px" height="60px" frameborder="0"></iframe><iframe src="index_files/a.htm" scrolling="no" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:10px !important; bottom:90px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:520px !important; min-width:350px !important; max-height:520px !important; max-width:350px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:350px !important; height:520px !important; display:none !important; z-index:auto !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:5px !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="w6hdnh3h9i681674327740473" class="" title="chat widget" width="350px" height="520px" frameborder="0"></iframe><iframe src="index_files/a.htm" scrolling="no" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:100px; left:auto !important; position:fixed !important; border:0 !important; min-height:55px !important; min-width:360px !important; max-height:55px !important; max-width:360px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:360px !important; height:55px !important; display:none !important; z-index:auto !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="depfmgc5jbpg1674327740433" class="" title="chat widget" width="360px" height="55px" frameborder="0"></iframe><iframe src="index_files/a.htm" scrolling="no" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:82px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:85px !important; min-width:146px !important; max-height:85px !important; max-width:146px !important; padding:0 !important; margin:0px 0 0 0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:rotate(0deg) translateZ(0); -webkit-transform:rotate(0deg) translateZ(0); -ms-transform:rotate(0deg) translateZ(0); width:146px !important; height:85px !important; display:block !important; z-index:1000002 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important; -moz-transform:rotate(0deg) translateZ(0); -o-transform:rotate(0deg) translateZ(0); transform-origin:0; -moz-transform-origin:0; -webkit-transform-origin:0; -o-transform-origin:0; -ms-transform-origin:0;" id="mt79jl3sa2mc1674327740450" class="" title="chat widget" width="146px" height="85px" frameborder="0"></iframe></div><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;" class="g-recaptcha-bubble-arrow"></div><div style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;" class="g-recaptcha-bubble-arrow"></div><div style="z-index: 2000000000; position: relative;"><iframe title="El reCAPTCHA caduca dentro de dos minutos" src="index_files/bframe.htm" style="width: 100%; height: 100%;" name="c-9g5fesn4eduy" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" frameborder="0"></iframe></div></div></body></html>
